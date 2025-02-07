@@ -1,0 +1,23 @@
+﻿  mouseTile.cpp
+P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(35,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(35,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(38,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(40,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(40,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Map_Editor.vcxproj -> P:\Git HUB _Repositories\SFML\Map_Editor\x64\Debug\Map_Editor.exe
