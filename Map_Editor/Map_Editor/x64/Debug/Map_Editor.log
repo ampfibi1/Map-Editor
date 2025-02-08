@@ -1,23 +1,22 @@
-﻿  mouseTile.cpp
-P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(35,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(35,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(38,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(40,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-P:\Git HUB _Repositories\SFML\Map_Editor\Map_Editor\mouseTile.cpp(40,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Map_Editor.vcxproj -> P:\Git HUB _Repositories\SFML\Map_Editor\x64\Debug\Map_Editor.exe
+﻿  Map.cpp
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,16): error C2672: 'begin': no matching overloaded function found
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1844): message : see declaration of 'std::begin'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): message : With the following template arguments:
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): message : '_Container=sf::Sprite *'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'sf::Sprite *'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(55): message : see declaration of 'std::begin'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,16): error C2672: 'end': no matching overloaded function found
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1854): message : see declaration of 'std::end'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): message : With the following template arguments:
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): message : '_Container=sf::Sprite *'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'sf::Sprite *'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(60): message : see declaration of 'std::end'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C3536: '<begin>$L0': cannot be used before it is initialized
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,28): error C3536: '<end>$L0': cannot be used before it is initialized
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,26): error C2100: illegal indirection
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,41): error C2664: 'void sf::RenderTarget::draw(const sf::Drawable &,const sf::RenderStates &)': cannot convert argument 1 from 'int' to 'const sf::Drawable &'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,41): message : Reason: cannot convert from 'int' to 'const sf::Drawable'
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\Map_Editor\Map.cpp(23,41): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+P:\Git HUB _Repositories\Map-Editor\Map_Editor\directories\SFML-2.6.2\include\SFML\Graphics\RenderTarget.hpp(237,10): message : see declaration of 'sf::RenderTarget::draw'

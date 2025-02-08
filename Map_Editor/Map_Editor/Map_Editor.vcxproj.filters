@@ -27,6 +27,9 @@
     <ClCompile Include="mouseTile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FPS.h">
@@ -36,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mouseTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

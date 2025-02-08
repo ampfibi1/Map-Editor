@@ -11,7 +11,7 @@ int main() {
 	sf::Clock clock; 
 	sf::Time timer; 
 	float delta_time; 
-	Grid grid(sf::Vector2i(10,6)); 
+	Grid grid(sf::Vector2i(10,5)); 
 	mouseTile mousetile; 
 	sf::Vector2i mousePos; 
 	//----------------------------Initialization--------------------------

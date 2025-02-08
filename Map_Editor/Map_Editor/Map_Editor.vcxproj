@@ -147,13 +147,16 @@
   <ItemGroup>
     <ClCompile Include="FPS.cpp" />
     <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="mouseTile.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FPS.h" />
     <ClInclude Include="Grid.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="mouseTile.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

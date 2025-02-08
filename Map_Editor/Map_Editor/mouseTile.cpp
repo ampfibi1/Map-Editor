@@ -24,11 +24,11 @@ void mouseTile::Update(float delta_time,sf::Vector2i mousePos)
 {
 	
 
-	int x = mousePos.x /( 16*5); 
-	int xx = x * 16 * 5 ; 
+	int x = (mousePos.x - 100 )/( 16*5); 
+	int xx = x * 16 * 5 + 100; 
 
-	int y = mousePos.y / (16*5); 
-	int yy = y * 16 * 5  ;
+	int y = (mousePos.y-100) / (16*5); 
+	int yy = y * 16 * 5  +  100;
 
 	//mapSprite.setPosition(sf::Vector2f(mousePos));
 

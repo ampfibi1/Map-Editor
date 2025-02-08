@@ -8,6 +8,7 @@ private:
 	sf::Texture mapTexture; 
 	sf::Sprite mapSprite;
 	std::vector<sf::Sprite> mapSPrites; 
+	bool isMouseOnGrid; 
 public:
 	mouseTile();
 	~mouseTile();
